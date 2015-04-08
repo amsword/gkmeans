@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ANNRetrieval">
+      <UniqueIdentifier>{117c6aca-3507-47f8-b8f3-0d1dc7ed5c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DllOutput">
+      <UniqueIdentifier>{7ee3a8a3-5b3c-40f2-9595-bae3d41c99cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{ae43b60c-d543-40c5-9f79-54793823f3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility_header">
+      <UniqueIdentifier>{2566ab2f-d625-4b5a-8d75-98a57776a2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{9890ab07-4280-46f6-bd2e-c30f025d380c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Print">
+      <UniqueIdentifier>{18f9daab-65c1-4d6c-9a46-be49426e55bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalVariable">
+      <UniqueIdentifier>{fd6d671b-f719-4ef8-86ce-ea5d3bb3d6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANNRetrieval\Base">
+      <UniqueIdentifier>{46e20dd0-ac8c-4cb2-9c63-4ff39b520526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility_math">
+      <UniqueIdentifier>{710f6d47-8a93-4b3a-9f8c-fc60c480f276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANNRetrieval\Criterion">
+      <UniqueIdentifier>{b64d3ca6-fade-47d0-a32b-f9631eab8cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANNRetrieval\SearchEngine">
+      <UniqueIdentifier>{107899cb-ad3d-4d9c-b55d-c5fece521d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANNRetrieval\Distance">
+      <UniqueIdentifier>{8626a82b-1e2a-40b8-bc6c-e0c0342ca12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryCodeOperations">
+      <UniqueIdentifier>{ecc4925e-c244-434c-8283-b92e9f44e32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{8559b49f-0d7f-4e45-8e33-25660a65c3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tuples">
+      <UniqueIdentifier>{96beb121-c575-4279-b9f7-fc6a11004935}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitVector.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculateDistance.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="FileName.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardIndex.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertedIndex.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiIndexMapper.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamsBase.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="PQComplexStructure.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue2.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_assert.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_init.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math_solver.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math_spmatrix.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_memory.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_search.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_sort.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="VarSpMatrix.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="DllExportHeader.h">
+      <Filter>DllOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>utility_header</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_macro.h">
+      <Filter>Print</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_global.h">
+      <Filter>GlobalVariable</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceOrganizer.h">
+      <Filter>ANNRetrieval\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearSearchEngine.h">
+      <Filter>ANNRetrieval\SearchEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecisionCriterion.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math_imatrix.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math_matrix.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math_smatrix.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math_vector.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="EuclideanDistance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="Criterion.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceCalculator.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="PQDistance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchEngine.h">
+      <Filter>ANNRetrieval\SearchEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueNeighborsCriterion.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_types.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="HammingDistance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="Dense8Distance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryCodePartition.h">
+      <Filter>BinaryCodeOperations</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagonalDistance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="DenseDistance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryOptDistance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="VariedTopkCriterion.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedTopksCriterion.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="CKMeansDistance.h">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHeadReader.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualData.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualMatrixOpened.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDataBuffer.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDataT.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="ANNRetrieval.h">
+      <Filter>ANNRetrieval</Filter>
+    </ClInclude>
+    <ClInclude Include="DistRatioExternalMemory.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="AverageDistanceRatioCriterion.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveResultCriterion.h">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClInclude>
+    <ClInclude Include="utility_math_basic.h">
+      <Filter>utility_math</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteforceKNNer.h">
+      <Filter>ANNRetrieval</Filter>
+    </ClInclude>
+    <ClInclude Include="Triplet.h">
+      <Filter>tuples</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BitVector.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardIndex.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertedIndex.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiIndexMapper.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_assert.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_init.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_search.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_global.cpp">
+      <Filter>GlobalVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceOrganizer.cpp">
+      <Filter>ANNRetrieval\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearSearchEngine.cpp">
+      <Filter>ANNRetrieval\SearchEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecisionCriterion.cpp">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClCompile>
+    <ClCompile Include="EuclideanDistance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="Criterion.cpp">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceCalculator.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="PQDistance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchEngine.cpp">
+      <Filter>ANNRetrieval\SearchEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueNeighborsCriterion.cpp">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClCompile>
+    <ClCompile Include="HammingDistance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="Dense8Distance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryCodePartition.cpp">
+      <Filter>BinaryCodeOperations</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagonalDistance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="DenseDistance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryOptDistance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedTopksCriterion.cpp">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClCompile>
+    <ClCompile Include="VariedTopkCriterion.cpp">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClCompile>
+    <ClCompile Include="CKMeansDistance.cpp">
+      <Filter>ANNRetrieval\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHeadReader.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualData.cpp">
+      <Filter>utility_math</Filter>
+    </ClCompile>
+    <ClCompile Include="DistRatioExternalMemory.cpp">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveResultCriterion.cpp">
+      <Filter>ANNRetrieval\Criterion</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_math_basic.cpp">
+      <Filter>utility_math</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_math_vector.cpp">
+      <Filter>utility_math</Filter>
+    </ClCompile>
+    <ClCompile Include="utility_math_smatrix.cpp">
+      <Filter>utility_math</Filter>
+    </ClCompile>
+    <ClCompile Include="Triplet.cpp">
+      <Filter>tuples</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
