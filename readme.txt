@@ -31,9 +31,5 @@ Please also consider to cite our paper if it helps:
     journal   = {CoRR},  
     volume    = {abs/1501.00825},  
     year      = {2015},  
-    url       = {http://arxiv.org/abs/1501.00825},  
-    timestamp = {Mon, 02 Feb 2015 14:12:25 +0100},  
-    biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/WangYYKLW15},  
-    bibsource = {dblp computer science bibliography, http://dblp.org}  
 }
 
