@@ -6,7 +6,9 @@ routines of how to train the model from the training data, how to encode the dat
 points with the model, how to do retrieval task, and how to evaluate the retrieval 
 results. 
 
-For any question, please feel free to contact me: wjf2006@mail.ustc.edu.cn
+This code is not quite cleaned, but it should be easy to use and should work. 
+For any question, please contact me: wjf2006@mail.ustc.edu.cn
+
 ----------------------------------------------------------------------
 Linux: Directly start Matlab and run main_entry.m. 
 
