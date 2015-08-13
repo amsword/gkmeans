@@ -12,7 +12,12 @@ For any question, please contact me: wjf2006@mail.ustc.edu.cn or
 jianfengwang@outlook.com
 
 ----------------------------------------------------------------------
-Linux: Directly start Matlab and run main_entry.m. 
+Linux: 
+1. add the following to ~/.bashrc
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/user/code/gkmeans/c_code/bin
+if the downloaded folder is /home/user/code/gkmeans
+
+2. Start Matlab and run main_entry.m.
 
 Windows: The main issue is to compile the c++ codes under c_codes/. 
 In each sub folder, the project file is provided, but is not well tested. 
@@ -26,7 +31,6 @@ Q1: libutility.so can not be found
 A1: The file is located in c_code/bin. Thus please add the following in
 ~/.bashrc
 
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/user/code/gkmeans/c_code/bin
 
 -----------------------------------------------------------------------
 Note:
