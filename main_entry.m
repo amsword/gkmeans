@@ -8,7 +8,10 @@ num_partitions = 1;
 num_grouped = 2; % it can be modified to be 1. '2' corresponds better accuracy with longer time
 
 % it is ok not to change the following variables
-encoding_method = 'gkmeans';
+% it is ok to change it to ock, which is the closely related with the paper,
+% entitled optimized cartesian k-means. However, it is not recommended because
+% of the superiority of gkmeans over ock
+encoding_method = 'gkmeans'; 
 num_can = 12;
 num_can_encode = 12;
 initialize_type = 'h_ockmeans'
