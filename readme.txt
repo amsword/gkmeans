@@ -6,7 +6,12 @@ gk-means is an algorithm to do clustering or binary code encoding. The codes pro
 This code is not quite cleaned, but it should be easy to use and should work. For any question, please contact me: wjf2006@mail.ustc.edu.cn
 
 ----------------------------------------------------------------------
-Linux: Directly start Matlab and run main_entry.m. 
+Linux: Directly start Matlab and run main_entry.m. If an error is prompted and
+it is the libutility.so can not be found. Please add the ./c_code/bin to the
+~/.bashrc file. If the absolute path is /home/user/code/gkmeans/, then add the
+following to ~/.bashrc
+
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/user/code/gkmeans/c_code/bin
 
 Windows: The main issue is to compile the c++ codes under c_codes/. In each sub folder, the project file is provided, but is not well tested. A little more effort is required to compile the c++ codes under windows. Since no additional library is required, it should not be difficult to do it. 
 
